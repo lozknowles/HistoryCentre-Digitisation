@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Record List</title>
+</head>
+<body>
+    <h1>Record List</h1>
+    <a href="{% url 'record_create' %}">Add New Record</a>
+    <ul>
+        {% for record in records %}
+            <li>
+                <a href="{% url 'record_detail' record.pk %}">{{ record.title }}</a> - 
+                <a href="{% url 'record_update' record.pk %}">Edit</a> - 
+                <a href="{% url 'record_delete' record.pk %}">Delete</a>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

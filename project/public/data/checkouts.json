@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "itemId": "A001",
+    "checkedOutBy": "John Smith",
+    "checkedOutDate": "2024-01-15",
+    "checkedInDate": "2024-02-01",
+    "notes": "Used for local history exhibition"
+  },
+  {
+    "id": "2",
+    "itemId": "B005",
+    "checkedOutBy": "Sarah Wilson",
+    "checkedOutDate": "2024-02-20",
+    "checkedInDate": null,
+    "notes": "Research purposes"
+  }
+]

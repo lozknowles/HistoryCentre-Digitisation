@@ -1,0 +1,14 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.easyocr_models/
+.easyocr_user_network/
+output/
+Release-24.07.0-0/
+Release-24.07.0-0.zip
+poppler-24.07.0/
+preprocessed_page_*.png
+extracted_texts.txt
+refined_extracted_texts.txt

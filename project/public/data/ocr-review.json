@@ -1,0 +1,36 @@
+[
+  {
+    "sourcePdf": "card.pdf",
+    "manualReview": true,
+    "pages": [
+      {
+        "pageNumber": 1,
+        "rawText": "Collingham and District Local History Society Simple object name ID number Word Dei AEUT EF/an /sox/g Title Date received jdhnson OAvas 6C1 22 Brief description Projcct LITE 2702Y Of LiVing' Hiftories OpVid To X NSon b I42 4 Donatedloan by Date H AELChAty oc723 Copyright H Pieli Chaty Associated people Crockce 74ol WATE NEUJSreA b , Jickolson Associated places 74 Heh St 51 Aich St (aeMAns Cottie) 'Buc CoACE ST EohV THE C4PTiST 0ES Home location Date Current location Date Efa#/t-L 12/2/202 4 4Dykes L)"
+      },
+      {
+        "pageNumber": 2,
+        "rawText": "Physical description, family, street, house etc: paee HA $ pxoto OF RLaz paer 0F 04 Froy7 Oub phoid 0f 79 HicH( 4C Co7tiec Dav 6 ToHnroa DNTz ~JLE Ctt IN For Eerourb 6J 'Th Size Condition EYCELLENT A 4 Notes; cross references etc: EF Iaa ) <ok 17 0F TE Juhxco > FAh LY S7o?"
+      }
+    ],
+    "fields": {
+      "Simple object name": "",
+      "ID number": "Word Dei AEUT EF/an /sox/g",
+      "Title": "",
+      "Date received": "jdhnson OAvas 6C1 22",
+      "Brief description": "Projcct LITE 2702Y Of LiVing' Hiftories OpVid To X NSon b I42 4 Donated",
+      "Donated/loan by": "Date H AELChAty oc723",
+      "Date (Donation/loan)": "",
+      "Copyright": "H Pieli Chaty",
+      "Associated people": "Crockce 74ol WATE NEUJSreA b , Jickolson",
+      "Associated places": "74 Heh St 51 Aich St (aeMAns Cottie) 'Buc CoACE ST EohV THE C4PTiST 0ES",
+      "Home location": "Date",
+      "Date (Home location)": "",
+      "Current location": "Date Efa#/t-L 12/2/202 4 4Dykes L)",
+      "Date (Current location)": "",
+      "Physical description": ", family, street, house etc: paee HA $ pxoto OF RLaz paer 0F 04 Froy7 Oub phoid 0f 79 HicH( 4C Co7tiec Dav 6 ToHnroa DNTz ~JLE Ctt IN For Eerourb 6J 'Th",
+      "Size": "",
+      "Condition": "EYCELLENT A 4",
+      "Notes": "; cross references etc: EF Iaa ) <ok 17 0F TE Juhxco > FAh LY S7o?"
+    }
+  }
+]
