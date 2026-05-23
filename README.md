@@ -22,6 +22,10 @@ The goal is to turn scanned archive cards into searchable records, let staff rev
 - `collingham_archive/` - Django-based archive model and CRUD work
 - `PythonProjectDatabaseFeeder/card.png` - sample card image for OCR collaboration and testing
 
+## Sample card
+
+![Sample archive card](PythonProjectDatabaseFeeder/card.png)
+
 ## Browser app
 
 The browser app is the main admin surface. It includes:
