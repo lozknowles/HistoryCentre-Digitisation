@@ -29,6 +29,10 @@ This repository is a working archive digitisation system for CDLHS.
 - `project/scripts/verify-workspace.cjs` performs real optical scans and UI writes. Run only against a NEW synthetic 100-record database created by `catalogue/scripts/create_demo_database.py`.
 - Keep raw OCR, suggested spellings, human decisions and measured fixture accuracy distinct. Never use benchmark gold text in the recogniser or claim fixture results as general handwriting accuracy.
 - Stage item photographs before accession; preserve originals and human confirmation. A browser viewport or capture-input test does not qualify a physical phone camera.
+- The public site has a separate entrypoint (`catalogue/run_public.py`) and build (`npm run build:public`). Do not register the internal workspace/API routes on that public process.
+- Publish only explicitly reviewed public fields. Never expose donor/contact details, storage locations, raw OCR or original uploads through the public catalogue. Demo auto-publication is restricted to the explicitly synthetic database and runs once.
+- Public form checks must use a fresh fictional database. Offer photographs and enquiry contact details belong outside the web root and require a staff session.
+- The requested public URL is `https://lozknowles.com/cdlhs/index.html`. Do not add links to the existing lozknowles.com navigation or rebuild its unrelated website source.
 - OCR feeder: `cd PythonProjectDatabaseFeeder && python cardreader.py`
 
 ## Commit expectations

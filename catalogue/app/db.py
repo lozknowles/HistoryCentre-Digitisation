@@ -20,6 +20,7 @@ def ensure_database(db_path: Path) -> None:
         conn.execute("PRAGMA foreign_keys = ON;")
         conn.executescript(SCHEMA.read_text(encoding="utf-8"))
         conn.executescript((SCHEMA.parent / "002_workspace.sql").read_text(encoding="utf-8"))
+        conn.executescript((SCHEMA.parent / "003_public_site.sql").read_text(encoding="utf-8"))
         seeded = conn.execute("SELECT COUNT(*) FROM catalogue_records").fetchone()[0]
         if seeded == 0:
             conn.executescript(SEED.read_text(encoding="utf-8"))

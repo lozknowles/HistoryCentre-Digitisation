@@ -5,6 +5,7 @@ __pycache__/
 
 project/node_modules/
 project/dist/
+project/dist-public/
 project/.codex-preview/
 project/.bolt/
 project/assets/

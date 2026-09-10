@@ -14,6 +14,14 @@ The new workspace joins the React interface to the recovered Flask/SQLite catalo
 
 [Watch the captioned 1440p walkthrough](docs/demo/collingham-archive-walkthrough-1440p.mp4) · [Setup and workflow guide](docs/card-workspace.md) · [100 fictional training records](catalogue/demo/collection.json)
 
+## Public archive website
+
+[Explore the public demonstration](https://lozknowles.com/cdlhs/index.html): search the 100 fictional items, add up to eight to a viewing list, request a second-Saturday visit, or offer an item as a loan or donation with photographs. Requests are saved privately for staff review, with references and a review history. They are demonstration enquiries, not actual CDLHS appointments; no automated emails are sent.
+
+The public app follows the society website’s white pages, grey surroundings, blue links and historic banner. It has a separate public entrypoint and authenticated staff inbox. Internal OCR, donor details and storage locations are excluded. Existing lozknowles.com navigation is unchanged.
+
+[Public site setup, staff workflow and hosting](docs/public-archive.md). Build with `cd project && npm run build:public`; the private workspace build remains separate.
+
 ## Start the browser workspace
 
 Requirements: Python 3.10+, Node.js 20+ and npm. Scanning also needs Tesseract with English data and Poppler (`pdftoppm`) on PATH. Manual accession and photographs work without the OCR programs. No paid API or model download is required.
