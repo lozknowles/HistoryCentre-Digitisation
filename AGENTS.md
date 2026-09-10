@@ -13,12 +13,16 @@ This repository is a working archive digitisation system for CDLHS.
 
 ## Main areas
 
+- `catalogue/` is the recovered Flask/SQLite catalogue review app and name lexicon. See `catalogue/UPSTREAM.md` and `docs/recovered-ocr-work.md` for provenance.
 - `project/` is the browser admin application.
 - `PythonProjectDatabaseFeeder/` is the local OCR and ingestion toolchain.
 - `collingham_archive/` contains the Django archive model and CRUD code.
 
 ## Build and test
 
+- Catalogue review app: `cd catalogue && python -m pip install -r requirements-dev.txt && python -m pytest`
+- Catalogue tests must use temporary databases. Do not run write checks against an existing archivist database.
+- `catalogue/poc/` preserves historical OCR evidence. Do not collect its model experiment as an ordinary test or run GPU inference as part of review-app checks.
 - Browser app: `cd project && npm run build`
 - OCR feeder: `cd PythonProjectDatabaseFeeder && python cardreader.py`
 

@@ -1,5 +1,7 @@
 # collingham-archive-catalogue
 
+This is the 4 July 2026 catalogue project, consolidated into HistoryCentre-Digitisation on 10 September 2026. See [UPSTREAM.md](UPSTREAM.md) for the exact source commit and integration changes, and [the main setup guide](../README.md#start-the-catalogue-review-app) for Windows and Linux instructions.
+
 OCR-assisted digital catalogue for the Collingham and District Local History Society History Centre Archive.
 
 This repository starts as a provenance-first foundation rather than a finished app. The immediate goal is to preserve the existing paper-card archive workflow, keep the original OCR proof of concept intact, and create a SQLite-backed catalogue that can be reviewed and corrected by archivists without losing audit history.
@@ -83,7 +85,11 @@ By default this writes `data/collingham-archive-catalogue.sqlite`, which is igno
 scripts/run_local.sh
 ```
 
-This creates a repo-local virtual environment in `.venv/`, installs Flask, bootstraps the database if needed, and starts the app on `http://127.0.0.1:8000`.
+Run this from `catalogue/`. It creates a repo-local virtual environment in `.venv/`, installs Flask, bootstraps the database if needed, and starts the app on `http://127.0.0.1:8000`. The imported launcher uses loopback with debugging disabled. `COLLINGHAM_DB` selects a database, and `COLLINGHAM_PORT` selects a port. Network binding requires an explicit `COLLINGHAM_HOST` setting; this app has no authentication.
+
+## Correction memory: current boundary
+
+The `PIEU CHATY` to `PIELICHATY` correction is stored in the seeded lexicon. Archivists can add confirmed entries and variants, with audit records. The preserved OCR script does not yet query that lexicon, and no model fine-tuning has been performed. Automatic matching, batch ingestion, and application of these corrections to later OCR runs remain future work.
 
 ## Smoke check
 

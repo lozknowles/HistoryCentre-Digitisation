@@ -1,0 +1,336 @@
+{
+  "source_repository": "https://github.com/lozknowles/collingham-archive-catalogue",
+  "source_commit": "5d512a647510562a285d49653c980f26723b2cad",
+  "import_date": "2026-09-10",
+  "source_file_count": 41,
+  "files": [
+    {
+      "source_path": ".gitignore",
+      "destination_path": "catalogue/.gitignore",
+      "git_mode": "100644",
+      "git_blob": "59336b5540a3528cd6d373ba3e65305045bf5079",
+      "source_sha256": "4520b34dc6cbcb67c8447651f077135091fbf41b637d92ee8c024ed678a04961",
+      "integration_modified": true
+    },
+    {
+      "source_path": "CHANGELOG.md",
+      "destination_path": "catalogue/CHANGELOG.md",
+      "git_mode": "100644",
+      "git_blob": "80ff6416df27c85635afaee4187a0173037079b3",
+      "source_sha256": "83cb5e053bb132d36dd88d6632bf60ec769528dcd528e21a8aafe2e052f2539c",
+      "integration_modified": false
+    },
+    {
+      "source_path": "README.md",
+      "destination_path": "catalogue/README.md",
+      "git_mode": "100644",
+      "git_blob": "c3e3f25063e65b0579fe854b34f970e7db801be2",
+      "source_sha256": "e80d27465a776d176e93c7ee4b6f8c2febb64100fceec7f6c4d3c3465f0a9456",
+      "integration_modified": true
+    },
+    {
+      "source_path": "STATUS.md",
+      "destination_path": "catalogue/STATUS.md",
+      "git_mode": "100644",
+      "git_blob": "9d1e59cd69f4c1da9264131c13c8aa89bf7efa61",
+      "source_sha256": "b740102be2438fa119a94ec581221139615a291071589d0cd1d12c8ee0ff7893",
+      "integration_modified": false
+    },
+    {
+      "source_path": "TODO.md",
+      "destination_path": "catalogue/TODO.md",
+      "git_mode": "100644",
+      "git_blob": "58af7a1c71804a3267447f3826393fed33866ea8",
+      "source_sha256": "e85e28067021da2064ae757db52bf768276074f991227b4bdcbc138ece326bb9",
+      "integration_modified": false
+    },
+    {
+      "source_path": "app/__init__.py",
+      "destination_path": "catalogue/app/__init__.py",
+      "git_mode": "100644",
+      "git_blob": "dc0425e05b0d05647e229494e56054bba96e8e76",
+      "source_sha256": "c382da3fd84d53ceb5febbba3e13ab6dc7aa63b3455d0f94ba7702760d9482f0",
+      "integration_modified": false
+    },
+    {
+      "source_path": "app/db.py",
+      "destination_path": "catalogue/app/db.py",
+      "git_mode": "100644",
+      "git_blob": "b236f271fbc4b4f6e7d2f61796d72ebeeea1d077",
+      "source_sha256": "c99def53c04cc5ac7ffb0cea2e19979f93601cdce6f2002be15f18240c1caf08",
+      "integration_modified": false
+    },
+    {
+      "source_path": "app/templates/base.html",
+      "destination_path": "catalogue/app/templates/base.html",
+      "git_mode": "100644",
+      "git_blob": "10543be82ca27dff8bb612adef80ebc42a304366",
+      "source_sha256": "739e3dc3744d6db59972b6d929bff9e73d437bc10729497e93f1d5a97aa0d00f",
+      "integration_modified": false
+    },
+    {
+      "source_path": "app/templates/lexicon.html",
+      "destination_path": "catalogue/app/templates/lexicon.html",
+      "git_mode": "100644",
+      "git_blob": "5c36ec957855d9403134ad90d219ca3d84e54a0a",
+      "source_sha256": "09a77b75b2cad734703fd89e294efd345bdd1cee9dd5aaadf71e17a3401d658c",
+      "integration_modified": false
+    },
+    {
+      "source_path": "app/templates/record_detail.html",
+      "destination_path": "catalogue/app/templates/record_detail.html",
+      "git_mode": "100644",
+      "git_blob": "64608041934ba07ddbc65930e41994f04ffe87e1",
+      "source_sha256": "93327de2ae915a409bfcda60751966368f09ee30409b6fda090bacd85d7b6b5d",
+      "integration_modified": false
+    },
+    {
+      "source_path": "app/templates/record_list.html",
+      "destination_path": "catalogue/app/templates/record_list.html",
+      "git_mode": "100644",
+      "git_blob": "37393cec04b7bea9e952c2c0d9165f1e4d847dc5",
+      "source_sha256": "0b849103217ab71e0de3f51739fe278f811a473a7bdf3222a6d5cd78c6216138",
+      "integration_modified": false
+    },
+    {
+      "source_path": "app/templates/review_queue.html",
+      "destination_path": "catalogue/app/templates/review_queue.html",
+      "git_mode": "100644",
+      "git_blob": "91a47b26779db36a3c6e44cf334d8b4c0050e0ce",
+      "source_sha256": "d61f593233a3fd583c4c92f0a624198bb230f730cf0880f522487cf16d858c24",
+      "integration_modified": false
+    },
+    {
+      "source_path": "app/web.py",
+      "destination_path": "catalogue/app/web.py",
+      "git_mode": "100644",
+      "git_blob": "e25dea80c718475dfb90c032f2e5b3ea8b768efc",
+      "source_sha256": "244a516f3fdd41e3739e833bd28ed83c5a4725170223bc70322511acde0d959e",
+      "integration_modified": true
+    },
+    {
+      "source_path": "data/sample/david-johnson-card.json",
+      "destination_path": "catalogue/data/sample/david-johnson-card.json",
+      "git_mode": "100644",
+      "git_blob": "fa7b2c602f55d68488648d417abae0ff53ef4332",
+      "source_sha256": "1d4f63af45a2d51251e71e45665fa6db35d731aa666938b6b404cdd9cba941fd",
+      "integration_modified": false
+    },
+    {
+      "source_path": "data/sample/david-johnson-card.md",
+      "destination_path": "catalogue/data/sample/david-johnson-card.md",
+      "git_mode": "100644",
+      "git_blob": "c267aa59922fc15e50acf5ee61ad7b45b99e8aa8",
+      "source_sha256": "d719e76944e5e9b919fe0d4f7134fe68691c518e2cc8add8420e65c7f3dd29e2",
+      "integration_modified": false
+    },
+    {
+      "source_path": "exports/sample/david-johnson-public.json",
+      "destination_path": "catalogue/exports/sample/david-johnson-public.json",
+      "git_mode": "100644",
+      "git_blob": "494d1809048ba9d3ea43070af388e3f4d3865643",
+      "source_sha256": "679a1f3730610e2c53358c5430074ff8084130cac0476c91dd4d9c5736c91c8c",
+      "integration_modified": false
+    },
+    {
+      "source_path": "poc/README.md",
+      "destination_path": "catalogue/poc/README.md",
+      "git_mode": "100644",
+      "git_blob": "a0644174d1f859d1fc8d75cd30a84ad31c01cef4",
+      "source_sha256": "733a70e10a321805077f79b5a7541d2f73959a6979b4b0eea31f8b80adf55c1c",
+      "integration_modified": false
+    },
+    {
+      "source_path": "poc/card-pages-small/page-1.png",
+      "destination_path": "catalogue/poc/card-pages-small/page-1.png",
+      "git_mode": "100644",
+      "git_blob": "6305876448af22741b1d9f14c113cfc14af45d61",
+      "source_sha256": "2aeaceaf5b5820b600d2fcf7294690bab5599dea8671d69be0659417539e2c67",
+      "integration_modified": false
+    },
+    {
+      "source_path": "poc/card-pages-small/page-2.png",
+      "destination_path": "catalogue/poc/card-pages-small/page-2.png",
+      "git_mode": "100644",
+      "git_blob": "99dd5d05462567e71bcce3099eaee47bd276dd64",
+      "source_sha256": "c3e7a949fa5062895af1b7bf8b06b5b93b6e3c1b3df959c3716a89252984f49e",
+      "integration_modified": false
+    },
+    {
+      "source_path": "poc/card-pages/page-1.png",
+      "destination_path": "catalogue/poc/card-pages/page-1.png",
+      "git_mode": "100644",
+      "git_blob": "551d6a6c1f0b98979a333f598599c4272bd8cdf6",
+      "source_sha256": "4f54797961ca323942a4dfced0fac2f0466038da2b3bf2a8d8e608ddfd56a910",
+      "integration_modified": false
+    },
+    {
+      "source_path": "poc/card-pages/page-2.png",
+      "destination_path": "catalogue/poc/card-pages/page-2.png",
+      "git_mode": "100644",
+      "git_blob": "99b952ea721fa97836da02f1032a8ca43e235ed5",
+      "source_sha256": "4186141fae6c0ad64159ad20b208b2dcb0179e3b0c751b00991ace3a4db8d574",
+      "integration_modified": false
+    },
+    {
+      "source_path": "poc/card.pdf",
+      "destination_path": "catalogue/poc/card.pdf",
+      "git_mode": "100644",
+      "git_blob": "cb4b9aefee37ac19dc2742f713b94b3ca5d51796",
+      "source_sha256": "e15bbc009c18957f71a27ed63b284b8bb99d11b044563a73c565d26c541c8475",
+      "integration_modified": false
+    },
+    {
+      "source_path": "poc/olmocr-p5000.py",
+      "destination_path": "catalogue/poc/olmocr-p5000.py",
+      "git_mode": "100644",
+      "git_blob": "dc8ddd814b6a4213f592f7eb7b5f9017f8fbe623",
+      "source_sha256": "381b17ca1020c83b226ad19a5e0a2217e82dbaa4051bf42ad9babd5aed54612e",
+      "integration_modified": false
+    },
+    {
+      "source_path": "poc/olmocr-pipeline-debug.log",
+      "destination_path": "catalogue/poc/olmocr-pipeline-debug.log",
+      "git_mode": "100644",
+      "git_blob": "ec9d0d62cbe49c8ef452d9809e39488a1e6251d5",
+      "source_sha256": "edb2271377db10fcb7aecfaf30176e0f27277b5ae432f0c2b2388a2d9bfcb1d5",
+      "integration_modified": false
+    },
+    {
+      "source_path": "poc/output/card/card.json",
+      "destination_path": "catalogue/poc/output/card/card.json",
+      "git_mode": "100644",
+      "git_blob": "8cc70b9fb256f1b86803b1669a134e3a7417b602",
+      "source_sha256": "a1a400737ca8ad59f97d85050472c077259dfb2bb91e5ca92f0b9a6f9382340f",
+      "integration_modified": false
+    },
+    {
+      "source_path": "poc/output/card/card.md",
+      "destination_path": "catalogue/poc/output/card/card.md",
+      "git_mode": "100644",
+      "git_blob": "9f82415c55377adcf573fbf8db66f4d481db6797",
+      "source_sha256": "8d9dced29623f64904a3a0f6d25a26dba9e620357f1fab4050d1905acd04ab15",
+      "integration_modified": false
+    },
+    {
+      "source_path": "poc/output/card/pages/page-1.png",
+      "destination_path": "catalogue/poc/output/card/pages/page-1.png",
+      "git_mode": "100644",
+      "git_blob": "490440347c0a03879c8e304716a23db47e1099bf",
+      "source_sha256": "82fd03bea146a3842e1c5faea0f38d2915c61b6bf87377b80cb08d5c8c1e7122",
+      "integration_modified": false
+    },
+    {
+      "source_path": "poc/output/card/pages/page-2.png",
+      "destination_path": "catalogue/poc/output/card/pages/page-2.png",
+      "git_mode": "100644",
+      "git_blob": "484fec4ff786992d0dfd135fa5a4c4cbbfdb2d50",
+      "source_sha256": "84a35547191aa29b5c7aa185cbba0daa12d45c1a0a12d5f77314d1b923df4483",
+      "integration_modified": false
+    },
+    {
+      "source_path": "poc/smoke.png",
+      "destination_path": "catalogue/poc/smoke.png",
+      "git_mode": "100644",
+      "git_blob": "6f92ff1fb0d054d8bfafc6d0e2426cd5a3970eea",
+      "source_sha256": "5048d8b4981ebd2f5368da1600ade171a47fc035c3abb8d6a0923ad695e09432",
+      "integration_modified": false
+    },
+    {
+      "source_path": "poc/test-pdfs/smoke.pdf",
+      "destination_path": "catalogue/poc/test-pdfs/smoke.pdf",
+      "git_mode": "100644",
+      "git_blob": "f6c250976a542ca3c62e82305db2fce60a84b632",
+      "source_sha256": "1960625117bb2578ee82199f78ae80d411367d91288d7bf336a4e62644bc0671",
+      "integration_modified": false
+    },
+    {
+      "source_path": "poc/test_olmocr_direct.py",
+      "destination_path": "catalogue/poc/test_olmocr_direct.py",
+      "git_mode": "100644",
+      "git_blob": "797ea2a0b0509d144c337d96bf7aca1b38a23c3c",
+      "source_sha256": "d9e2ec98e79b138e26f52bfe689b90db5b6c29486a474637b2dff577038a044c",
+      "integration_modified": false
+    },
+    {
+      "source_path": "poc/work/work_index_list.csv.zstd",
+      "destination_path": "catalogue/poc/work/work_index_list.csv.zstd",
+      "git_mode": "100644",
+      "git_blob": "ccab7bce831e0003db24f9c89ae928b63123ff4c",
+      "source_sha256": "5e50e235609605c4a6bcff1e7a7df05263a904558898c26e7cde521cfe89dea3",
+      "integration_modified": false
+    },
+    {
+      "source_path": "pytest.ini",
+      "destination_path": "catalogue/pytest.ini",
+      "git_mode": "100644",
+      "git_blob": "27eec68ed708999a4b2ac00f8334a17f04c974cc",
+      "source_sha256": "4551307f5b1a58adb7ec215d513089ba670b1737b81ada5a5863afe796d67343",
+      "integration_modified": false
+    },
+    {
+      "source_path": "requirements.txt",
+      "destination_path": "catalogue/requirements.txt",
+      "git_mode": "100644",
+      "git_blob": "8250ba0ad4438bd1cf4fdf44c6d6d39e0bf4adc2",
+      "source_sha256": "5b54c2303ad6524b29b8749c9a4f9625ec8ad408a862900f26350d022fc0aa96",
+      "integration_modified": false
+    },
+    {
+      "source_path": "run_app.py",
+      "destination_path": "catalogue/run_app.py",
+      "git_mode": "100755",
+      "git_blob": "e378e28fbc00383d14cea7505c48a35df93e901a",
+      "source_sha256": "7a6e538205fdc340ff983772599571e32f599d2098961a0363da29d2cc744a0b",
+      "integration_modified": true
+    },
+    {
+      "source_path": "schema/001_initial.sql",
+      "destination_path": "catalogue/schema/001_initial.sql",
+      "git_mode": "100644",
+      "git_blob": "1ea98637b449915501cd991f0f68d09c9109cd2b",
+      "source_sha256": "4929f6dc68184aa79d847ab986d16bd9fcc9d72e13c0e31d4e99e832d5d3bd38",
+      "integration_modified": false
+    },
+    {
+      "source_path": "scripts/bootstrap_db.py",
+      "destination_path": "catalogue/scripts/bootstrap_db.py",
+      "git_mode": "100755",
+      "git_blob": "38ba645ce8c690ebeb9bb5ef96e63624fd3b8410",
+      "source_sha256": "e443e1228cd5963f3bff835052deca0801b406c406c0ebbf3a98eb7008143e0d",
+      "integration_modified": false
+    },
+    {
+      "source_path": "scripts/check_routes.py",
+      "destination_path": "catalogue/scripts/check_routes.py",
+      "git_mode": "100755",
+      "git_blob": "9feaf00500098654eac1ca0022a2fc742bb6ac0c",
+      "source_sha256": "49656fb4b9d832e7a539311751385aa75c15375bcac0db1be04d5b9acd90c65c",
+      "integration_modified": false
+    },
+    {
+      "source_path": "scripts/run_local.sh",
+      "destination_path": "catalogue/scripts/run_local.sh",
+      "git_mode": "100755",
+      "git_blob": "0a53abaaf101f4b127149467ffd69ec3d6484bc8",
+      "source_sha256": "9ffed5925661d7bf8d61fb62749bb38f726ccee1211efa75d97b3a2d29805591",
+      "integration_modified": true
+    },
+    {
+      "source_path": "seed/001_sample_data.sql",
+      "destination_path": "catalogue/seed/001_sample_data.sql",
+      "git_mode": "100644",
+      "git_blob": "69d5c2996728aa99406c29c89aed39f9cc48f584",
+      "source_sha256": "e496ecf147e58266a8f9505511edd53b025b3a74611bd080627c5f99d79ccd4a",
+      "integration_modified": false
+    },
+    {
+      "source_path": "tests/test_routes.py",
+      "destination_path": "catalogue/tests/test_routes.py",
+      "git_mode": "100644",
+      "git_blob": "2a4643f0b25c5fa04e4d3e50c3f6b3dee26b871e",
+      "source_sha256": "0b7af42c5c344c3557fe5cb31d328b66145f505273486b00682804f99487f5c4",
+      "integration_modified": false
+    }
+  ]
+}

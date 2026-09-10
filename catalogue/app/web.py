@@ -60,6 +60,10 @@ def create_app() -> Flask:
                        FROM catalogue_record_history h
                        WHERE h.record_id = r.record_id
                          AND (h.reviewer_decision IS NULL OR h.reviewer_decision = 'defer')
+                         AND NOT EXISTS (
+                             SELECT 1 FROM catalogue_history_decisions d
+                             WHERE d.source_history_id = h.history_id
+                         )
                    ) AS pending_count
             FROM catalogue_records r
         """
@@ -84,8 +88,12 @@ def create_app() -> Flask:
                 conn,
                 """
                 SELECT COUNT(*)
-                FROM catalogue_record_history
-                WHERE reviewer_decision IS NULL OR reviewer_decision = 'defer'
+                FROM catalogue_record_history h
+                WHERE (h.reviewer_decision IS NULL OR h.reviewer_decision = 'defer')
+                  AND NOT EXISTS (
+                      SELECT 1 FROM catalogue_history_decisions d
+                      WHERE d.source_history_id = h.history_id
+                  )
                 """,
             )[0]
             lexicon_count = fetch_one(conn, "SELECT COUNT(*) FROM lexicon_entries")[0]
