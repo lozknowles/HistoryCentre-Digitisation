@@ -11,7 +11,7 @@ const initDb = async (): Promise<Database> => {
 
   try {
     const SQL = await initSqlJs({
-      locateFile: file => `/sql.js/${file}`
+      locateFile: file => `${import.meta.env.BASE_URL}sql.js/${file}`
     });
 
     let db: Database;
@@ -71,7 +71,7 @@ const initDb = async (): Promise<Database> => {
     // Check if cards table is empty
     const result = db.exec("SELECT COUNT(*) FROM cards");
     if (result[0].values[0][0] === 0) {
-      const response = await fetch('/data/cards.json');
+      const response = await fetch(`${import.meta.env.BASE_URL}data/cards.json`);
       if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
       
       const cards: ArchiveCard[] = await response.json();
@@ -238,7 +238,7 @@ export const saveCheckout = async (checkout: Checkout): Promise<boolean> => {
         WHERE itemId = ? AND checkedInDate IS NULL
       `, [checkout.itemId]);
       
-      if (existing[0].values[0][0] > 0) {
+      if (Number(existing[0].values[0][0]) > 0) {
         throw new Error('Item is already checked out');
       }
     }
@@ -272,7 +272,7 @@ export const isItemCheckedOut = async (itemId: string): Promise<boolean> => {
       WHERE itemId = ? AND checkedInDate IS NULL
     `, [itemId]);
     
-    return result[0].values[0][0] > 0;
+    return Number(result[0].values[0][0]) > 0;
   } catch (error) {
     console.error('Failed to check item status:', error);
     return false;

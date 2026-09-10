@@ -35,7 +35,7 @@ const splitList = (value: string) => {
 };
 
 export const loadOcrReviewQueue = async (): Promise<OcrReviewItem[]> => {
-  const response = await fetch('/data/ocr-review.json');
+  const response = await fetch(`${import.meta.env.BASE_URL}data/ocr-review.json`);
   if (!response.ok) {
     throw new Error(`Failed to load OCR review queue: ${response.status}`);
   }

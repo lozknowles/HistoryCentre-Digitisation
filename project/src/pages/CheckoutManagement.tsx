@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Plus, Save, Search, AlertCircle } from 'lucide-react';
 import { loadCards } from '../services/cardService';
 import { loadCheckouts, saveCheckout } from '../services/checkoutService';

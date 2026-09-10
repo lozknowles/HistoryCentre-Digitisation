@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { AlertTriangle, Check, ChevronLeft, ChevronRight, FileText, RotateCcw, Save } from 'lucide-react';
 import { CardForm } from '../components/CardForm';
 import { loadCards, saveCard } from '../services/cardService';

@@ -41,6 +41,8 @@ def create_app() -> Flask:
         "COLLINGHAM_DB",
         str((Path(__file__).resolve().parent.parent / "data" / "collingham-archive-catalogue.sqlite")),
     )
+    from .workspace import init_workspace
+    init_workspace(app)
 
     @app.template_filter("nl2br")
     def nl2br(value: str | None) -> str:

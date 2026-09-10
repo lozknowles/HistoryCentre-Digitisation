@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, Plus, Save, Trash2 } from 'lucide-react';
 import { useLocation } from 'react-router-dom';
 import { CardForm } from '../components/CardForm';

@@ -58,7 +58,7 @@
       "git_mode": "100644",
       "git_blob": "b236f271fbc4b4f6e7d2f61796d72ebeeea1d077",
       "source_sha256": "c99def53c04cc5ac7ffb0cea2e19979f93601cdce6f2002be15f18240c1caf08",
-      "integration_modified": false
+      "integration_modified": true
     },
     {
       "source_path": "app/templates/base.html",
@@ -274,7 +274,7 @@
       "git_mode": "100644",
       "git_blob": "8250ba0ad4438bd1cf4fdf44c6d6d39e0bf4adc2",
       "source_sha256": "5b54c2303ad6524b29b8749c9a4f9625ec8ad408a862900f26350d022fc0aa96",
-      "integration_modified": false
+      "integration_modified": true
     },
     {
       "source_path": "run_app.py",

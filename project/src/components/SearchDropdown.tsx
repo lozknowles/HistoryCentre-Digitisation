@@ -1,4 +1,3 @@
-import React from 'react';
 import type { ArchiveCard } from '../types/Card';
 
 interface SearchDropdownProps {

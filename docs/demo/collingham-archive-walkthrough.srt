@@ -1,0 +1,74 @@
+1
+00:00:00,000 --> 00:00:13,237
+100 fictional items, ten kinds of local history
+Photographs, clothing, books, helmets, medicine bottles, deeds, maps, brochures, household objects and tools.
+
+2
+00:00:13,237 --> 00:00:21,591
+The familiar card, front and back
+The digital card follows the society’s paper fields, with the item’s location, source and change history alongside.
+
+3
+00:00:21,591 --> 00:00:35,928
+Accession by scanning a card
+This two-page fictional deed card is uploaded to the local OCR engine. The original file will stay with the record.
+
+4
+00:00:35,928 --> 00:00:50,481
+A real OCR error: a name needs help
+The scanner read “Helena Quillrere”. The known fictional card says “Helena Quillmere”. Raw word accuracy: 97.94%.
+
+5
+00:00:50,481 --> 00:00:58,326
+The checked reading is remembered
+The original OCR is preserved. The confirmed spelling is saved for later suggestions, and this card now scores 100% against its known text.
+
+6
+00:00:58,326 --> 00:01:10,911
+Item 101 joins the catalogue
+The scan, both card faces and the reviewer’s decisions stay together. Accession happens only after the complete card is checked.
+
+7
+00:01:10,911 --> 00:01:16,076
+Manual accession works from the same card
+An object without an existing archive card can be entered directly. This new item is a fictional, empty amber medicine bottle.
+
+8
+00:01:16,076 --> 00:01:27,016
+Photograph the item before accession
+On mobile, “Take item photo” requests the camera. Check the preview or replace it before saving. This demonstration photograph is AI-generated and clearly fictional.
+
+9
+00:01:27,016 --> 00:01:34,007
+Describe the physical object
+The reverse holds its material description, size, condition and notes. Category and storage location make it findable later.
+
+10
+00:01:34,007 --> 00:01:42,669
+Follow the item’s location
+Recording a loan updates the current location and the audit history. Returning it restores its previous home.
+
+11
+00:01:42,669 --> 00:01:56,097
+A later card, the same difficult name
+This is a different accession: a fictional walking brochure. It is scanned afresh by the same optical engine.
+
+12
+00:01:56,097 --> 00:02:11,683
+The saved correction improves the next draft
+Raw OCR: 97.92%. With the remembered spelling: 100.00% on this known fictional card. Both suggestions still need human approval.
+
+13
+00:02:11,683 --> 00:02:16,829
+The two corrected records are now findable
+A search for the confirmed name brings together the deed and the brochure, while retaining their separate accession references.
+
+14
+00:02:16,829 --> 00:02:24,200
+103 accessioned items. Every change accounted for.
+Two scanned cards and one manually entered object. This demonstration measures two synthetic fixtures; it does not promise 100% accuracy on real archives.
+
+15
+00:02:24,200 --> 00:02:44,680
+Mobile: photograph the item before accession
+Check or replace the photo, then complete the card. Browser demonstration uses a fictional image; a physical phone camera has not been tested.

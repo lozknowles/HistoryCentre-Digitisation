@@ -24,6 +24,11 @@ This repository is a working archive digitisation system for CDLHS.
 - Catalogue tests must use temporary databases. Do not run write checks against an existing archivist database.
 - `catalogue/poc/` preserves historical OCR evidence. Do not collect its model experiment as an ordinary test or run GPU inference as part of review-app checks.
 - Browser app: `cd project && npm run build`
+- Browser type checking: `cd project && npm run typecheck`.
+- The `/workspace/` React app uses the catalogue API and SQLite. Preserve the earlier browser app and its `archiveDb` local storage at `/workspace/#/legacy`.
+- `project/scripts/verify-workspace.cjs` performs real optical scans and UI writes. Run only against a NEW synthetic 100-record database created by `catalogue/scripts/create_demo_database.py`.
+- Keep raw OCR, suggested spellings, human decisions and measured fixture accuracy distinct. Never use benchmark gold text in the recogniser or claim fixture results as general handwriting accuracy.
+- Stage item photographs before accession; preserve originals and human confirmation. A browser viewport or capture-input test does not qualify a physical phone camera.
 - OCR feeder: `cd PythonProjectDatabaseFeeder && python cardreader.py`
 
 ## Commit expectations

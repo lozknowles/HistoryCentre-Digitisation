@@ -19,6 +19,6 @@ export const saveCheckout = async (checkout: Checkout): Promise<boolean> => {
   }
 };
 
-export const isItemCheckedOut = (itemId: string): boolean => {
+export const isItemCheckedOut = (itemId: string): Promise<boolean> => {
   return dbIsItemCheckedOut(itemId);
 };

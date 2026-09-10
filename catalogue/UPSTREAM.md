@@ -9,7 +9,7 @@
 
 All 41 source-tracked files were imported. `UPSTREAM.json` records their original Git blob IDs and modes. Original scans, OCR output, schema, seed records, model experiment, and historical project notes are preserved. The source repository remains independent.
 
-Integration changes are limited to:
+Initial consolidation changes through `a6209cb` were:
 
 - Launching on `127.0.0.1` with debugging disabled, with explicit host/port environment options.
 - Respecting `COLLINGHAM_DB` when the Linux launcher bootstraps a database.
@@ -20,3 +20,11 @@ Integration changes are limited to:
 The running HPUbuntu database, model weights, virtual environments, and unrelated untracked enclosure-page preparation script were not imported. The confirmed surname/variant already exists in the source-controlled seed data. The 15 preserved runtime artifacts also present under `/fast/olmocr-poc` were compared by SHA-256 on 10 September and all matched.
 
 GPU OCR was not rerun during consolidation. Recorded model settings and timings describe the July proof of concept, not a new hardware qualification.
+
+## Card workspace continuation
+
+The subsequent 10 September work joins the new React workspace to this Flask/SQLite catalogue. Added files implement additive schema extensions, real local Tesseract scanning, exact lexicon suggestions with human approval, manual accession, staged item photographs, loans, synthetic fixtures and integration tests. The original `app/db.py` now applies the additive workspace schema, `app/web.py` registers the new routes, and runtime requirements include Pillow.
+
+`UPSTREAM.json` retains the original source commit, blob IDs and source hashes. Its `integration_modified` flags identify every source file adapted here; new workspace files are additions outside that original 41-file manifest. All original scans, transcripts, sample records, seed data and GPU experiments remain byte-for-byte identical as Git blobs. Historical `STATUS.md`, `TODO.md` and `CHANGELOG.md` are retained as source evidence, not current delivery status.
+
+See [the current guide and verification](../docs/card-workspace.md) for this continuation. The 100 training records and demonstration photo are explicitly fictional and remain separate from the recovered real sample.

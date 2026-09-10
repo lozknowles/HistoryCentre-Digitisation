@@ -1,0 +1,55 @@
+{
+  "notice": "Gold text is used only after OCR to score these exact synthetic files; never as OCR input.",
+  "fixtures": [
+    {
+      "file": "01-first-accession.pdf",
+      "sha256": "eedc0cc75d23f2ceb6f98502717b9ac3787a76679c09bef7e25a4b14527c2da1",
+      "expected_fields": {
+        "object_name": "Deed",
+        "archive_reference_canonical": "DEMO/2026/101",
+        "title": "Willow Lane garden deed",
+        "date_received": "10 Sep 2026",
+        "brief_description": "A fictional village archive item for scanning practice.\nThe donor and object history are invented.",
+        "donated_by": "Helena Quillmere",
+        "donation_date": "10 Sep 2026",
+        "copyright": "Synthetic training material",
+        "associated_people": "Helena Quillmere",
+        "associated_places": "Collingham; Imagined Willow Lane",
+        "home_location": "Store A / Box 12",
+        "home_location_date": "10 Sep 2026",
+        "current_location": "Store A / Box 12",
+        "current_location_date": "10 Sep 2026",
+        "physical_description": "Fictional archive document on cream paper.\nBlack ink with a handwritten donor name.\nStored in an acid-free folder.",
+        "size": "240 x 180 mm",
+        "condition": "Good; slight wear at edges",
+        "notes": "FICTIONAL TRAINING ITEM.\nNo real donor or historical event is represented.",
+        "cross_references": "Synthetic collection / scanning exercise"
+      }
+    },
+    {
+      "file": "02-later-accession.pdf",
+      "sha256": "56797abec296ef6f19e48b4775a52f68d3b947f45bf9dd1c23d422046ca035ee",
+      "expected_fields": {
+        "object_name": "Brochure",
+        "archive_reference_canonical": "DEMO/2026/103",
+        "title": "Orchard walking brochure",
+        "date_received": "10 Sep 2026",
+        "brief_description": "A fictional village archive item for scanning practice.\nThe donor and object history are invented.",
+        "donated_by": "Helena Quillmere",
+        "donation_date": "10 Sep 2026",
+        "copyright": "Synthetic training material",
+        "associated_people": "Helena Quillmere",
+        "associated_places": "Collingham; Imagined Willow Lane",
+        "home_location": "Store A / Box 12",
+        "home_location_date": "10 Sep 2026",
+        "current_location": "Store A / Box 12",
+        "current_location_date": "10 Sep 2026",
+        "physical_description": "Fictional archive document on cream paper.\nBlack ink with a handwritten donor name.\nStored in an acid-free folder.",
+        "size": "240 x 180 mm",
+        "condition": "Good; slight wear at edges",
+        "notes": "FICTIONAL TRAINING ITEM.\nNo real donor or historical event is represented.",
+        "cross_references": "Synthetic collection / scanning exercise"
+      }
+    }
+  ]
+}

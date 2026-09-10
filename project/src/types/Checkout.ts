@@ -3,6 +3,6 @@ export interface Checkout {
   itemId: string;
   checkedOutBy: string;
   checkedOutDate: string;
-  checkedInDate?: string;
+  checkedInDate?: string | null;
   notes?: string;
 }

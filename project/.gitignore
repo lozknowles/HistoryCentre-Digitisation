@@ -10,6 +10,8 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+test-results/
+__pycache__/
 .codex-preview
 .bolt
 *.local

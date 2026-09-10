@@ -1,6 +1,10 @@
 # collingham-archive-catalogue
 
-This is the 4 July 2026 catalogue project, consolidated into HistoryCentre-Digitisation on 10 September 2026. See [UPSTREAM.md](UPSTREAM.md) for the exact source commit and integration changes, and [the main setup guide](../README.md#start-the-catalogue-review-app) for Windows and Linux instructions.
+This contains the recovered 4 July 2026 catalogue project and the new card workspace added on 10 September 2026. See [UPSTREAM.md](UPSTREAM.md) for provenance and [the current setup guide](../README.md#start-the-browser-workspace) for Windows and Linux instructions.
+
+The modern browser interface at `/workspace/` shares this catalogue's SQLite database. It adds scan and manual accession, item photographs captured before accession, review of uncertain readings, exact remembered-spelling suggestions, loans and 100 fictional training records. See [the workspace guide](../docs/card-workspace.md) and [video](../docs/demo/collingham-archive-walkthrough-1440p.mp4).
+
+The following foundation notes describe the recovered July design. The new browser scanner uses local Tesseract and Poppler; the historical P5000 olmOCR experiment remains preserved and separate.
 
 OCR-assisted digital catalogue for the Collingham and District Local History Society History Centre Archive.
 
@@ -87,9 +91,9 @@ scripts/run_local.sh
 
 Run this from `catalogue/`. It creates a repo-local virtual environment in `.venv/`, installs Flask, bootstraps the database if needed, and starts the app on `http://127.0.0.1:8000`. The imported launcher uses loopback with debugging disabled. `COLLINGHAM_DB` selects a database, and `COLLINGHAM_PORT` selects a port. Network binding requires an explicit `COLLINGHAM_HOST` setting; this app has no authentication.
 
-## Correction memory: current boundary
+## Correction memory: recovered and current pipelines
 
-The `PIEU CHATY` to `PIELICHATY` correction is stored in the seeded lexicon. Archivists can add confirmed entries and variants, with audit records. The preserved OCR script does not yet query that lexicon, and no model fine-tuning has been performed. Automatic matching, batch ingestion, and application of these corrections to later OCR runs remain future work.
+The `PIEU CHATY` to `PIELICHATY` correction is stored in the seeded lexicon. Archivists can add confirmed entries and variants, with audit records. The preserved July OCR script remains unchanged and does not query that lexicon. The new `/workspace/` pipeline consults confirmed variants and presents exact matches for approval on later scans. It preserves raw readings, rejects ambiguous substitutions and never learns archive-reference replacements. No model fine-tuning or general batch importer is included.
 
 ## Smoke check
 

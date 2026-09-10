@@ -2,6 +2,8 @@
 
 Verified on 10 September 2026.
 
+This page records the recovery checkpoint through commit `a6209cb`. The subsequent [card workspace update](card-workspace.md) adds a shared React interface, real local scanning, application of confirmed spelling variants, mobile item photographs and a separate fictional collection. Statements below about unimplemented automatic matching describe the recovered July pipeline, which is still preserved unchanged.
+
 ## Where the work went
 
 The original HistoryCentre-Digitisation repository stopped at commit `a7b7cba6d1a1ebd88204612c146f8d21f2364f8c` (13 June 2026). The later archive-card work continued on HPUbuntu in `/fast/olmocr-poc` and then [collingham-archive-catalogue](https://github.com/lozknowles/collingham-archive-catalogue).

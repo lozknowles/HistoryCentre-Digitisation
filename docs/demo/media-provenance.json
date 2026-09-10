@@ -1,0 +1,16 @@
+{
+  "created": "2026-09-10",
+  "video": {
+    "file": "collingham-archive-walkthrough-1440p.mp4",
+    "width": 2560,
+    "height": 1440,
+    "fps": 25,
+    "duration_seconds": 164.68,
+    "codec": "H.264",
+    "audio": false,
+    "sha256": "5b61745e9e36548bef7901584a5fad50f1bb51d1d6454da4a96335042321b744"
+  },
+  "source": "Real Playwright browser recording against an isolated synthetic SQLite catalogue; captioned at normal speed; mobile viewport sequence appended.",
+  "physical_phone_camera_tested": false,
+  "synthetic_image_provenance": "../../catalogue/demo/item-photos/PROVENANCE.md"
+}
